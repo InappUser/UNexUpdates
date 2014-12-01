@@ -1,10 +1,8 @@
 ####UNex
-#####V0.2
+#####V0.2.1
 #####Release notes
 
-* Second commit of updates for UNex game  
-* This version marks the first of those not meant for testing purposes
-* Functionality for changing and saving user sensitivity has been implemented
-* A new Weapon has been Added: the Shotgun
-* Changes have been made to the enemy spawn system to allow for random amounts of enemies to spawn at random spawn points throughout the scene
-* Spawning enemies are randomly "Alive" or "Static": the former attacking when provoked, the latter remaining innocuous 
+* Third commit of updates for UNex game  
+* This version is a small update, fixing bugs directly associated with the previous
+* Fixed a small error wherein, upon respawning, the game would crash due to an attempted reset of the player's sensitivity (to their saved sensitivity).
+* Fixed a small error wherein the game would crash if the player attempted to access the pause menu while respawning. Currently the ability to access the pause menu has been disabled by checking the players health first.
